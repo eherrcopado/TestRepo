@@ -204,6 +204,46 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Bicycles</pluralLabel>
+    <recordTypes>
+        <fullName>Giant_Bikes</fullName>
+        <active>true</active>
+        <label>Giant Bikes</label>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Mountain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Road</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Trek_Bikes</fullName>
+        <active>true</active>
+        <label>Trek Bikes</label>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>BMX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mountain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Road</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tandem</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
