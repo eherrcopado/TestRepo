@@ -4038,6 +4038,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Dog__c.Sex__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>EngagementChannelType.ContactPointType</field>
         <readable>false</readable>
@@ -13739,10 +13744,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageClearbitIntegration</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageContentPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -13892,10 +13893,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageZapierIntegration</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
